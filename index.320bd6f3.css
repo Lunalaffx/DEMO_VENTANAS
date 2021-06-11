@@ -21,7 +21,11 @@ main {
 
 body {
 	margin: 0;
-	--color-text: rgb(28, 111, 160);
+	background-image: url(fondo3.png);
+	
+	text-shadow:5px 5px 10px rgb(0, 0, 0);
+	  
+	--color-text: rgb(255, 255, 255);
 	--color-text-alt: #848484;
 	--color-title: #421212;
 	--color-bg: #000000;
@@ -36,6 +40,7 @@ body {
     font-family: 'Chango', cursive;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
+	
 }
 
 a {
